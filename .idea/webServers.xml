@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="48594ccb-c0e9-4689-a27a-741dcdd95d33" name="leepong1" url="http://leepong1">
+        <fileTransfer host="leepong1" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f90d9172-4074-4fa1-afac-7b1073e635b7" name="leepong1_ssh" url="http://leepong1">
+        <fileTransfer host="leepong1" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="50d015f6-c543-4c86-8a37-a0444d6ebf60" name="leepong2" url="http://leepong2">
+        <fileTransfer host="leepong2" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" controlEncoding="utf-8" dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="039ca102-2d6d-4080-b95e-e7421a032c8b" name="leepong3" url="http://leepong3">
+        <fileTransfer host="leepong3" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="spark">
+    <output-path>$PROJECT_DIR$/out/artifacts/spark</output-path>
+    <root id="archive" name="spark.jar">
+      <element id="module-output" name="bigdata" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
