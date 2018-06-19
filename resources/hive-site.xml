@@ -44,6 +44,10 @@
 		<description>Whether to include the current database in the Hive prompt.</description>
 	</property>
 	<property>
+		<name>hive.metastore.local</name>
+		<value>false</value>
+	</property>
+	<property>
 		<name>hive.metastore.uris</name>
 		<value>thrift://leepong1:9083</value>
 		<description>IP address (or fully-qualified domain name) and port of the metastore host</description>
